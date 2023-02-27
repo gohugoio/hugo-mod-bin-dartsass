@@ -1,72 +1,74 @@
 {
   "module": {
     "type": "bin",
-    "manifest": {
-      "tag_name": "1.58.3",
-      "target_commitish": "main",
-      "name": "Dart Sass Embedded 1.58.3",
-      "draft": false,
-      "prerelease": false,
-      "created_at": "2023-02-18T00:40:20Z",
-      "published_at": "2023-02-18T00:50:43Z",
-      "assets": [
-        {
-          "name": "sass_embedded-1.58.3-linux-arm.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-arm.tar.gz",
-          "sha256": "9d109af657597055470d87727eef22b572c17621d29c8463bafc17bd27711ea1",
-          "content_type": "application/gzip",
-          "size": 3092567
-        },
-        {
-          "name": "sass_embedded-1.58.3-linux-arm64.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-arm64.tar.gz",
-          "sha256": "6d88e93af86324f5e778773ced93dcb3166942c3a0bd9aab927245c8573aee38",
-          "content_type": "application/gzip",
-          "size": 3280667
-        },
-        {
-          "name": "sass_embedded-1.58.3-linux-ia32.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-ia32.tar.gz",
-          "sha256": "e15cb6240ab24b8dca05ccf10a2ac9d1421d2e638a09c083f71a603604a8248e",
-          "content_type": "application/gzip",
-          "size": 18061542
-        },
-        {
-          "name": "sass_embedded-1.58.3-linux-x64.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-x64.tar.gz",
-          "sha256": "845860e85cdf276b62e35630aafb620e4275da485650be5f54a027fdc1a52e8f",
-          "content_type": "application/gzip",
-          "size": 3419160
-        },
-        {
-          "name": "sass_embedded-1.58.3-macos-arm64.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-macos-arm64.tar.gz",
-          "sha256": "02286a0ee3e60c6ae35d9578858661fff4e35a1e0bea6e57aacff5f1b560690c",
-          "content_type": "application/gzip",
-          "size": 2879880
-        },
-        {
-          "name": "sass_embedded-1.58.3-macos-x64.tar.gz",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-macos-x64.tar.gz",
-          "sha256": "33f1a5fe4cd802ea95b5407035b8410ffc3db163847b12882cd561aa2f527f7c",
-          "content_type": "application/gzip",
-          "size": 3085019
-        },
-        {
-          "name": "sass_embedded-1.58.3-windows-ia32.zip",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-ia32.zip",
-          "sha256": "922ce0b17970a88a9a993047ce3cb9e3b82dd50558d4add62d1033e149263d93",
-          "content_type": "application/zip",
-          "size": 16975035
-        },
-        {
-          "name": "sass_embedded-1.58.3-windows-x64.zip",
-          "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-x64.zip",
-          "sha256": "5d34baea134d8693e27e2e98e098d48706b345a5f7fb145a97f06a3493b2ad79",
-          "content_type": "application/zip",
-          "size": 3440877
-        }
-      ]
+    "params": {
+      "github-release": {
+        "tag_name": "1.58.3",
+        "target_commitish": "main",
+        "name": "Dart Sass Embedded 1.58.3",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2023-02-18T00:40:20Z",
+        "published_at": "2023-02-18T00:50:43Z",
+        "assets": [
+          {
+            "name": "sass_embedded-1.58.3-linux-arm.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-arm.tar.gz",
+            "sha256": "9d109af657597055470d87727eef22b572c17621d29c8463bafc17bd27711ea1",
+            "content_type": "application/gzip",
+            "size": 3092567
+          },
+          {
+            "name": "sass_embedded-1.58.3-linux-arm64.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-arm64.tar.gz",
+            "sha256": "6d88e93af86324f5e778773ced93dcb3166942c3a0bd9aab927245c8573aee38",
+            "content_type": "application/gzip",
+            "size": 3280667
+          },
+          {
+            "name": "sass_embedded-1.58.3-linux-ia32.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-ia32.tar.gz",
+            "sha256": "e15cb6240ab24b8dca05ccf10a2ac9d1421d2e638a09c083f71a603604a8248e",
+            "content_type": "application/gzip",
+            "size": 18061542
+          },
+          {
+            "name": "sass_embedded-1.58.3-linux-x64.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-linux-x64.tar.gz",
+            "sha256": "845860e85cdf276b62e35630aafb620e4275da485650be5f54a027fdc1a52e8f",
+            "content_type": "application/gzip",
+            "size": 3419160
+          },
+          {
+            "name": "sass_embedded-1.58.3-macos-arm64.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-macos-arm64.tar.gz",
+            "sha256": "02286a0ee3e60c6ae35d9578858661fff4e35a1e0bea6e57aacff5f1b560690c",
+            "content_type": "application/gzip",
+            "size": 2879880
+          },
+          {
+            "name": "sass_embedded-1.58.3-macos-x64.tar.gz",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-macos-x64.tar.gz",
+            "sha256": "33f1a5fe4cd802ea95b5407035b8410ffc3db163847b12882cd561aa2f527f7c",
+            "content_type": "application/gzip",
+            "size": 3085019
+          },
+          {
+            "name": "sass_embedded-1.58.3-windows-ia32.zip",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-ia32.zip",
+            "sha256": "922ce0b17970a88a9a993047ce3cb9e3b82dd50558d4add62d1033e149263d93",
+            "content_type": "application/zip",
+            "size": 16975035
+          },
+          {
+            "name": "sass_embedded-1.58.3-windows-x64.zip",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.58.3/sass_embedded-1.58.3-windows-x64.zip",
+            "sha256": "5d34baea134d8693e27e2e98e098d48706b345a5f7fb145a97f06a3493b2ad79",
+            "content_type": "application/zip",
+            "size": 3440877
+          }
+        ]
+      }
     }
   }
 }
