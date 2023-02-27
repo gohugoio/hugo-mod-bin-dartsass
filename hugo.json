@@ -2,7 +2,8 @@
   "module": {
     "type": "bin",
     "params": {
-      "github-release": {
+      "bin": "sass_embedded/dart-sass-embedded",
+      "github_release": {
         "tag_name": "1.58.3",
         "target_commitish": "main",
         "name": "Dart Sass Embedded 1.58.3",
